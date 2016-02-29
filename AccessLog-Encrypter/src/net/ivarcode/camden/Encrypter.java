@@ -29,8 +29,8 @@ public class Encrypter {
 				if (arr[j] == '.') {
 					writer.print(".");
 				} else {
-					int num = arr[j];
-					System.out.println(num);
+					int num = arr[j]-48;
+					writer.print(nummap[num]);
 				}
 			}
 			for (int k = 1; k < line.length; k++) {
